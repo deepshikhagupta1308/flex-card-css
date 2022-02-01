@@ -1,0 +1,91 @@
+body{
+    background: #fef8f5;
+}
+.card {
+    width: 195px;
+    border-radius: 15px;
+    padding: 12px;
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    flex: 20%;
+    flex-grow: initial;
+    background: white;
+  }
+  .parent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 10px;
+}
+.secondary-element {
+    text-align: center;
+}
+.primary-element{
+      height:190px;
+      width: 190px;
+      padding-bottom: 1rem!important;
+}
+.text-primary{
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Quicksand", sans-serif;
+}
+.text-success{
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-family: "Quicksand", sans-serif;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+hr:not([size]) {
+    height: 1px;
+}
+.title{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.title h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    color: #c2b7b1;
+}
+.title p {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #4e4039;
+}
+.text-disabled{
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-family: "Quicksand", sans-serif;
+}
+.see-detail{
+    text-align: center;
+}
+button {
+    color: #fff;
+    padding: 12px;
+    background-color: #eb5d1e;
+    text-decoration: none !important;
+    background: #eb5d1e;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+
